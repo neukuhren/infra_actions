@@ -2,7 +2,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse('У меня получилось задеплоить на я.облако!')
+    return HttpResponse('У меня получилось+!')
 
 
 def second_page(request):
